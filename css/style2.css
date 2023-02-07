@@ -1,0 +1,136 @@
+* {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+body {
+    background-color: rgb(9, 6, 6);
+    font-size: 25px;
+}
+
+.btn-container {
+    width: 674px;
+    height: 463px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.fa-regular:hover {
+    color: #2a0101;
+}
+
+.btn1:hover {
+    background-color: #fafcfc;
+    box-shadow: 15px 15px 10px #2a0101;
+    border-left: 35px solid #7f7f7f;
+}
+
+.btn1 {
+    width: 350px;
+    padding: 25px 25px;
+    margin: 10px;
+    background-color: rgb(235, 239, 239);
+    color: #000000;
+    border: none;
+    border-radius: 2px;
+    border-left: 5px solid #7f7f7f;
+    text-align: left;
+}
+
+.btn2:hover {
+    background-color: #c4f7c4;
+    box-shadow: 15px 15px 10px #2a0101;
+    border-left: 35px solid #3d9a46;
+}
+
+.btn2 {
+    width: 350px;
+    padding: 25px 25px;
+    margin: 10px;
+    letter-spacing: 0.1rem;
+    background-color: rgb(168, 244, 168);
+    color: #000000;
+    border: none;
+    border-radius: 2px;
+    border-left: 5px solid #3d9a46;
+    text-align: left;
+}
+
+.btn3:hover {
+    background-color: rgb(248, 177, 162);
+    box-shadow: 15px 15px 10px #2a0101;
+    border-left: 35px solid #b13f2a;
+}
+
+.btn3 {
+    width: 350px;
+    padding: 25px 25px;
+    margin: 10px;
+    letter-spacing: 0.1rem;
+    background-color: rgb(214, 133, 114);
+    color: #000000;
+    border: none;
+    border-radius: 2px;
+    border-left: 5px solid #b13f2a;
+    text-align: left;
+}
+
+.btn4:hover {
+    background-color: rgb(249, 225, 167);
+    box-shadow: 15px 15px 10px #2a0101;
+    border-left: 35px solid #967944;
+}
+
+.btn4 {
+    width: 350px;
+    padding: 25px 25px;
+    margin: 10px;
+    letter-spacing: 0.1rem;
+    background-color: rgb(243, 207, 123);
+    color: #000000;
+    border: none;
+    border-radius: 2px;
+    border-left: 5px solid #967944;
+    text-align: left;
+}
+
+button span {
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.fa-regular {
+    color: rgba(255, 255, 255, 0.344);
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+
+/*Posicionamento a direita do span fa-regular fa-circle-xmark*/
+
+button span:last-child {
+    width: 1px;
+    float: right;
+    margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+    .btn {
+        padding: 5px 10px;
+    }
+}

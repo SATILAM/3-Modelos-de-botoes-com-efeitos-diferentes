@@ -1,0 +1,118 @@
+* {
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+body {
+    background-color: black;
+    font-size: 25px;
+}
+
+.btn-container {
+    width: 440px;
+    height: 319px;
+    background-color: rgb(83, 91, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa-solid {
+    margin-left: center;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #df83f6;
+    transform: scale(1.1);
+    transition: transform 2s;
+}
+
+button span {
+    width: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+button span:last-child {
+    width: 1px;
+    float: right;
+    margin-left: 15px;
+}
+
+.fa-solid:hover {
+    color: rgb(0, 0, 0);
+}
+
+.btn1:hover {
+    background-color: #8c579a;
+}
+
+.btn1 {
+    width: 390px;
+    padding: 18px 18px;
+    margin: 10px;
+    background-color: purple;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    text-align: left;
+}
+
+.btn2:hover {
+    background-color: rgb(98, 191, 98);
+}
+
+.btn2 {
+    width: 390px;
+    padding: 18px 18px;
+    margin: 10px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    text-align: left;
+}
+
+.btn3:hover {
+    background-color: rgb(250, 203, 117);
+}
+
+.btn3 {
+    width: 390px;
+    padding: 18px 18px;
+    margin: 10px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    text-align: left;
+}
+
+.btn4:hover {
+    background-color: rgb(248, 82, 82);
+}
+
+.btn4 {
+    width: 390px;
+    padding: 18px 18px;
+    margin: 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .btn {
+        padding: 10px 10px;
+    }
+}
